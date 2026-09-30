@@ -1,0 +1,16 @@
+TY  - JOUR
+AU  - Naskar, Ayan Kumar
+AU  - Saha, Pritam
+PY  - 2026
+DA  - 2026/06/18
+TI  - Traffic Sign Visibility Estimation Using a Monocular Single-Stage Object Detector
+JO  - SN Computer Science
+SP  - 582
+VL  - 7
+IS  - 6
+AB  - This study investigates the visibility of traffic signs from a driver’s perspective using computer vision, with a specific focus on addressing overestimations in visibility distances that arise when using a camera-centred approach. With the proliferation of automated systems in road safety, accurate visibility assessments are crucial, particularly for urban environments where traffic signs play a pivotal role in guiding driver behaviour and ensuring road safety. Accurate sign detection alone is not sufficient for infrastructure evaluation, because it does not indicate whether a sign is visible to the driver at a practically adequate distance. The present study develops an automated framework that integrates a monocular single-stage object detector with a geometric correction to translate camera-derived distances to the driver’s viewpoint. Field experiments comprising 308 trial runs were conducted along rural and suburban corridors at speeds from 20 to 80 kph, capturing signs positioned near shoulders and observed from lanes adjacent to the shoulder (ATS) and adjacent to the median (ATM). A custom dataset of 4620 annotated images representing informatory, mandatory and warning signs was used to train a YOLOv5 model, which achieved robust detection performance with mAP@0.5 values exceeding 0.92. Visibility results showed clear category distinctions: informatory signs were detected at 70–78 m, mandatory at 30–57 m and warning at 17–37 m, with ATM observed signs exhibiting approximately 10–20% greater visibility than ATS. The proposed geometric correction reduced systematic overestimation by 3–7%, resulting in more realistic driver-perceived visibility distances. The proposed technique is therefore intended as a post-detection visibility assessment tool rather than a replacement for accurate detection. It can be used to support roadway safety audits, sign placement evaluation, and driver-centred infrastructure assessment. The study demonstrates that incorporating driver-centred geometric correction significantly improves the reliability of monocular vision-based visibility estimation frameworks, thereby enhancing their applicability in road safety audits.
+SN  - 2661-8907
+UR  - https://doi.org/10.1007/s42979-026-05180-5
+DO  - 10.1007/s42979-026-05180-5
+ID  - Naskar2026
+ER  - 
