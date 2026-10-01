@@ -1,0 +1,83 @@
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.py[cod]
+*.pyo
+
+# =========================
+# Virtual Environment
+# =========================
+
+.venv/
+venv/
+env/
+
+# =========================
+# Jupyter
+# =========================
+
+.ipynb_checkpoints/
+
+# =========================
+# Hugging Face Cache
+# =========================
+
+.cache/
+**/.cache/
+dataset/.cache/
+
+# =========================
+# Dataset
+# =========================
+
+dataset/traffic-sign-detection-vietnam/
+
+# ZIP dataset
+*.zip
+
+# =========================
+# YOLO / Training Outputs
+# =========================
+
+runs/
+yolo_runs/
+
+# =========================
+# Models
+# =========================
+
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# =========================
+# Generated Results
+# =========================
+
+outputs/
+results/
+predictions/
+
+# =========================
+# Environment / Secrets
+# =========================
+
+.env
+.env.*
+
+# =========================
+# VS Code
+# =========================
+
+.vscode/
+
+# =========================
+# Operating System
+# =========================
+
+.DS_Store
+Thumbs.db
+desktop.ini
