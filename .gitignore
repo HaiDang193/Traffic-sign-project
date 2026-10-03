@@ -32,7 +32,7 @@ dataset/.cache/
 # Dataset
 # =========================
 
-dataset/traffic-sign-detection-vietnam/
+dataset/dataset
 
 # ZIP dataset
 *.zip
