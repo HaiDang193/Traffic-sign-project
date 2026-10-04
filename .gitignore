@@ -82,3 +82,9 @@ predictions/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+#Slide
+slides/
+
+#paper
+paper/
