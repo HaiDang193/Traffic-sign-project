@@ -34,6 +34,7 @@ dataset/.cache/
 
 dataset/dataset
 dataset/yolo_ready_train
+data.yaml
 # ZIP dataset
 *.zip
 
